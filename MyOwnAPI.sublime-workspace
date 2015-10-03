@@ -1,0 +1,338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"maker",
+				"$makerId〔variable〕"
+			],
+			[
+				"Requ",
+				"Requests"
+			],
+			[
+				"p",
+				"php"
+			],
+			[
+				"vehi",
+				"Vehicle"
+			],
+			[
+				"up",
+				"updateVehicle"
+			],
+			[
+				"ma",
+				"maker"
+			],
+			[
+				"veh",
+				"vehicleId"
+			],
+			[
+				"Re",
+				"Request"
+			],
+			[
+				"ve",
+				"vehicleId"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/MyOwnAPI"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/MyOwnAPI/app/User.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/migrations/2015_09_27_142734_create_users.php",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/laravel/framework/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Kernel.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/seeds/UsersSeed.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/seeds/DatabaseSeeder.php",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Requests/CreateMakerRequest.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Requests/CreateVehicleRequest.php",
+		"/C/Users/Janet/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Janet/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/MyOwnAPI/app/Vehicle.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Requests/Request.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/routes.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/seeds/MakerSeed.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/seeds/VehiclesSeed.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/migrations/2015_09_26_222705_makers_table.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Maker.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/migrations/2015_09_26_222734_vehicles_table.php",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/migrations/2015_09_26_203658_vehicles_table.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/migrations/2015_09_26_203355_makers_table.php",
+		"/C/xampp/htdocs/MyOwnAPI/.env",
+		"/C/xampp/htdocs/MyOwnAPI/resources/views/hi.blade.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Controllers/MyController.php",
+		"/C/xampp/htdocs/MyOwnAPI/MyOwnAPI.sublime-project",
+		"/C/xampp/htdocs/CSRFTest/index.html",
+		"/C/xampp/htdocs/MyOwnAPI/index.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Controllers/VehicleController.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/migrations/2015_09_20_151819_create_users.php",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php",
+		"/C/Users/Janet/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Controllers/MakerVehiclesController.php",
+		"/C/Users/Janet/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/Janet/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Controllers/MakerController.php",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/C/Users/Janet/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_wrapping.sublime-settings",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/C/Users/Janet/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/Default (Windows).sublime-mousemap",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/laravel/framework/src/Illuminate/Contracts/Validation/ValidatesWhenResolved.php",
+		"/C/Users/Janet/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/jakub-onderka/php-console-highlighter/build.xml",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Middleware/Authenticate.php",
+		"/C/xampp/htdocs/MyOwnAPI/app/Http/Middleware/VerifyCsrfToken.php",
+		"/C/xampp/htdocs/MyOwnAPI/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/migrations/2015_09_18_145502_vehicles_table.php",
+		"/C/xampp/htdocs/MyOwnAPI/database/migrations/2015_09_18_145154_makers_table.php",
+		"/C/Users/Janet/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/MyOwnAPI/.gitignore",
+		"/C/xampp/htdocs/MyOwnAPI/app/Vehicles",
+		"/C/Users/Janet/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/xampp/htdocs/MyOwnAPI/app/MyModel.php",
+		"/C/xampp/htdocs/webalizer/webalizer.sublime-project"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"		\n",
+			"maker",
+			"power",
+			"color",
+			"phone",
+			"name",
+			"power",
+			"color",
+			"phone",
+			"name",
+			"maker",
+			"power",
+			"color",
+			"phone",
+			"name",
+			"phone",
+			"ctrl+r"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "MyOwnAPI.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"model",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php"
+			],
+			[
+				"createmaker",
+				"app\\Http\\Requests\\CreateMakerRequest.php"
+			],
+			[
+				"validateswhenresolved",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Contracts\\Validation\\ValidatesWhenResolved.php"
+			],
+			[
+				"formrequ",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\FormRequest.php"
+			],
+			[
+				"b",
+				"vendor\\jakub-onderka\\php-console-highlighter\\build.xml"
+			],
+			[
+				"authenticatewithbasicauth",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\AuthenticateWithBasicAuth.php"
+			],
+			[
+				"user",
+				"app\\User.php"
+			],
+			[
+				"formre",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\FormRequest.php"
+			],
+			[
+				"route",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteCollection.php"
+			],
+			[
+				"belongst",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Relations\\BelongsTo.php"
+			],
+			[
+				"mode",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
