@@ -3,6 +3,8 @@
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+
 class Handler extends ExceptionHandler {
 
 	/**
@@ -36,14 +38,17 @@ class Handler extends ExceptionHandler {
 	 */
 	public function render($request, Exception $e)
 	{
-		if ($this->isHttpException($e))
+		//for link myownapi.com notfound errors
+		if($e instanceof NotFoundHttpException)
 		{
-			return $this->renderHttpException($e);
+			return response()->json(['message' => 'Bad request, please verify your request route', 'code' => 400], 400);
 		}
-		else
+		else//for empty database
 		{
-			return parent::render($request, $e);
+			return response()->json(['message' => 'Unexpected errors, please try again later', 'code' => 500], 500);
 		}
+
+		
 	}
 
 }
