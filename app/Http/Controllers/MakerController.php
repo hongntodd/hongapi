@@ -38,10 +38,12 @@ class MakerController extends Controller {
 	public function show($id)
 	{
 		$maker = Maker::find($id);
+
 		if(!$maker)
 		{
 			return response()->json(['message' => 'This maker does not exist', 'code' => 404], 404);
 		}
+		
 		return response()->json(['data' => $maker], 200);
 	}
 
