@@ -19,3 +19,8 @@ Route::group(array('prefix' => 'api/v1.1'), function(){
 
 	Route::resource('makers.vehicles', 'MakerVehiclesController',  ['except' => ['create', 'edit']]);	
 });
+
+Route::post('oauth/access_token', function()
+{
+    return Response::json(Authorizer::issueAccessToken());
+});
