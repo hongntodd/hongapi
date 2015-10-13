@@ -1,9 +1,11 @@
 <?php namespace App\Http\Controllers;
 
+
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 
 use App\Maker;
 use App\Vehicle;
@@ -20,10 +22,21 @@ class MakerController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function index(Request $request)
 	{
-		$maker = Maker::all();
-		return response()->json(['data' => $maker], 200);
+		$page = 0;
+
+		if($request->has('page'))
+		{
+			$page = $request->get('page');
+		}
+
+		$makers= Cache::remember("makers$page" , 15/60 , function()
+		{
+			return Maker::simplePaginate(10);
+		});
+
+		return response()->json(['next'=> $makers->nextPageUrl(), 'previous'=> $makers->previousPageUrl(), 'data' => $makers->items()], 200);
 	}
 
 	/**
